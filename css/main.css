@@ -1,0 +1,275 @@
+body {
+  font-family: 'Garamond', serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(80deg,rgb(26, 103, 150),rgb(15, 194, 210));
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: medium;
+  padding: 15px;
+  padding-right: 25px;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#mainav {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+.logo {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: x-large;
+  padding: 15px;
+  padding-right: 25px;
+  padding-top: 30px;
+ 
+}
+nav1{
+  background-color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+nav li {
+  float: right;
+}
+
+
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding:20px;
+  padding-right: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: wheat;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 {
+  max-width: 900px; /* Adjust the width as needed */
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0;
+  justify-content: space-between;
+  flex:1;
+}
+
+#myCarousel {
+  margin-right: 30px; /* Adjust the margin as needed */
+  margin-bottom: 20px;
+  
+}
+
+.carousel-container {
+  flex: 1; /* This will make the carousel take up remaining space */
+  margin-left: 40px; /* Add margin for space between carousel and signin container */
+}
+
+/* Carousel Images */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Carousel Captions */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+}
+
+/* Carousel Controls */
+.carousel-control {
+  color: #fff;
+  font-size: 24px;
+}
+
+.signin-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 25px;
+  margin-top: 21px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+
+.signin-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  max-width: 100px; /* Limit the maximum width */
+ 
+  padding: 8px; /* Reduce padding for a smaller size */
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+.container4 {
+  text-align: center;
+  background: linear-gradient(80deg,rgb(26, 103, 150),rgb(15, 194, 210));
+  padding: 20px;
+  padding-right: 20px;
+  box-shadow: 0 0 10px;
+  margin-bottom: 20px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+} 
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  padding-bottom: 50px;
+  padding-top: 30px;
+
+}
+.about {
+  display: flex;
+}
+.box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  text-align: justify;
+  padding-top: 10px;
+  padding-right: 20px;
+  /* font-weight: 200;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px; */
+} 
+
+
+.box h3{
+ color:rgb(30, 92, 145); 
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer1{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+

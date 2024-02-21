@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="../css/pay.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="order-summary">
+      <h2>Order Summary</h2>
+      <div class="product-item">
+        <span>DOTZ Suzuka blaze Wheel</span>
+        <span>₹1,15,117.53</span>
+      </div>
+      <div class="product-item">
+        <span>AUTO MT Exhaust</span>
+        <span>₹6,464.64</span>
+      </div>
+      <div class="product-item">
+        <span>Chevrolet Cruze Headlights</span>
+        <span>₹28,500 .60</span>
+      </div>
+      <div class="product-item">
+        <span>Mahindra Scorpio Front Bumper</span>
+        <span>₹5099.88</span>
+      </div>
+
+    <div class="payment-details">
+      <div class="product-item">
+        <span>Delivery fee</span>
+        <span>₹250</span>
+      </div>
+      <hr>
+      <div class="product-item">
+        <strong>Order total</strong>
+        <span>₹1,55,432.65</span>
+      </div>
+    </div>
+
+    <button class="payment-button">Proceed to Payment</button>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the payment button element
+        var paymentButton = document.querySelector('.payment-button');
+        
+        // Add a click event listener to the button
+        paymentButton.addEventListener('click', function() {
+            // Show a pop-up notification
+            alert('Payment is successful');
+        });
+    });
+    </script>
+
+</body>
+</html>
